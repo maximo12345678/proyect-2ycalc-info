@@ -1,0 +1,277 @@
+<!DOCTYPE html> <!-- VIDEO :  https://www.youtube.com/watch?v=Q2imkhmhOFo&t=2s&ab_channel=Fazt -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--para problemas de compatibilidad con el navegador edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--es para pantallas de resolucion. responsive-->
+    <meta name="author" content="Maximo Yañez">
+    <meta name = "description" content = "We create solutions to your problems and make your ideas come true using the best technologies."> 
+    <title>2yCalc</title>
+
+    <link rel="icon" href="img/favicon2.ico">
+
+    <!-- FONT AWESOME  -  https://cdnjs.com/libraries/font-awesome    aca importamos fontawesome, pero tambien se podria descargar todo y cargarlo desde el hostoing u ordenador-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+
+
+    <!-- FONT OSWALD-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+
+    <!-- NAVEGADOR -->
+    <nav class="nav-main">
+        <a href="#"><img src="img/logo4.png" alt="2yCalc LOGO" class="nav-brand"></a>
+
+        <ul class="nav-menu">
+            <!-- lista UL para pestañas de navegacion, es una lista desordenada-->
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about-us">About us</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#technologies">Technologies</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+            <!--le cambiamos el tamaño al doble al icono-->
+        </div>
+
+
+
+    </nav>
+    <!-- <hr> una linea debajo de la navegacion -->
+
+
+    <!-- SHOWCASE-->
+    <header class="showcase" id="home">
+        <h1 >Software Factory</h1>
+        <p>Intelligence in software manufacturing.</p>
+
+    </header>
+
+
+    <div class="container">
+
+        <hr id="about-us">
+
+        <h2 class="texto" >About us</h2>
+        <div class="about-us" >
+            <div>
+                <a><img src="FotosDesign/doublephoto.jpg" alt=""></a>
+            </div>
+            <div>
+                <p class="texto2">We are a <b>team of software developers</b> that handle the most used Back-end and Front-end technologies.
+                </p>
+                <p class="texto2">Our software factory has <b>specialists in the analysis and development of Web</b> and desktop
+                    applications. 
+                </p>
+                <p class="texto2">We export software all over the world, in order to offer <b>quality service, project organization and code quality</b>
+                </p>
+            </div>
+        </div>
+
+        <hr id="services">
+
+        <!-- NEWS CARDS-->
+        <h2 class="texto" >Services</h2>
+        <div class="news-cards" >
+            <!-- adentro van todos los DIVS, cada div contiene una noticia. son columnas-->
+            <div>
+                <h3>Highly qualified development teams</h3>
+                <a><img src="FotosDesign/pexels-mikhail-nilov-7988236.jpg" alt="Services 1"></a>
+            </div>
+            <div>
+                <h3>Clean code and easily scalable</h3>
+                <a><img src="FotosDesign/pexels-pixabay-270404.jpg" alt="Services 2"></a>
+            </div>
+            <div>
+                <h3>Project Documentation</h3>
+                <a><img src="FotosDesign/leon-nF0nQuqBsrI-unsplash.jpg" alt="Services 3"></a>
+            </div>
+            <div>
+                <h3>Business Analysis and Evaluation</h3>
+                <a><img src="FotosDesign/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="Services 4"></a>
+            </div>
+        </div>
+
+
+        <!-- BANNER -->
+        <!-- <section class="cards-banner-one ">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, unde facere magnam, nemo ipsam
+                    voluptatum quae corporis cum minima harum quam accusamus!</p>
+                <a href="a" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section> -->
+
+        <!-- NEWS CARDS-->
+        <!-- <h1 class="texto">Que hacemos?</h1>
+        
+        <div class="news-cards ">
+            adentro van todos los DIVS, cada div contiene una noticia. son columnas
+            <div>
+                <a><img src="FotosDesign/heylagostechie-IgUR1iX0mqM-unsplash.jpg" alt="News 1"></a>
+                <h3>PROGRAMAMOS</h3>
+                <p>Llevamos a cabo proyectos internacionales cotizados a partir de 100 mil euros la hora.</p>
+            </div>
+            <div>
+                <a><img src="FotosDesign/kal-visuals-UqLV5o9h3ZQ-unsplash.jpg" alt="News 2"></a>
+                <h3>APRENDEMOS</h3>
+                <p>Constantemente nos seguimos capacitando y llevamos a cabo cursos para mantener actualizados a
+                    nuestros empleados.</p>
+            </div>
+            <div>
+                <a><img src="FotosDesign/leon-nF0nQuqBsrI-unsplash.jpg" alt="News 3"></a>
+                <h3>PLANIFICAMOS</h3>
+                <p>Planeamos perfectamente cada proyecto antes de comenzarlo, asi trabajamos de una manera mas
+                    organizada y efectiva.</p>
+            </div>
+            <div>
+                <a><img src="FotosDesign/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="News 4"></a>
+                <h3>TRABAJO EN EQUIPO</h3>
+                <p>Nuestra filosofia es apostando al trabajo en equipo para lograr grandes resultados.</p>
+            </div>
+        </div> -->
+
+        <hr id="technologies">
+
+
+        <h2 class="texto" >Technologies</h2>
+        <!-- OTRO BANNER, no copiado-->
+        <section class="cards-banner-two" >
+            <div>
+                <a><img src="iconos/logo_angular.png" alt="Icono angular"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_mysql.png" alt="Icono mysql"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_oracle.png" alt="Icono oracle"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_nodejs.png" alt="Icono nodejs"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_github.png" alt="Icono github"></a>
+
+            </div>
+            <div>
+                <a><img src="iconos/logo_react.png" alt="Icono react"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_javascript.png" alt="Icono javascript"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_sqlserver.png" alt="Icono github"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_redux.png" alt="Icono redux"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_net.png" alt="Icono net"></a>
+
+            </div>
+            <div>
+                <a><img src="iconos/logo_aws.png" alt="Icono aws"></a>
+            </div>
+            <div>
+                <a><img src="iconos/logo_azure.png" alt="Icono azure"></a>
+            </div>
+
+        </section>
+
+        <hr id="contact">
+
+        <!-- CLASE REDES SOCIALES-->
+        <!-- <h1 class="texto">Contactanos</h1> -->
+        <section class="social" >
+            <p >Follow 2yCalc</p>
+            <div class="links">
+                <a href="https://www.facebook.com/leo.yanez.33" target="_blank" title="Ir al facebook de 2yCalc">
+                    <i class="fab fa-facebook-f"></i>
+                    <!--clase de font awesome para el logo de facebook -->
+                </a>
+                <a href="https://www.instagram.com/2ycalc/" target="_blank" title="Ir al instagram de 2yCalc">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ya%C3%B1ez-leonardo-23798713/" target="_blank" title="Ir al linkedin de 2yCalc">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+    </div>
+    <div class="scrol"></div>
+
+    <div class="footer-links">
+        <!-- fuera del contenedor principal, aca ponemos la parte de abajo-->
+        <div class="footer-container">
+            <!-- creamos esta clase para despues centrarlo-->
+            
+            <ul> <h2>EMAILS</h2>
+                <li>
+                    cvrrhh@2ycalc.com
+                </li>
+                <li>
+                    info@2ycalc.com
+                </li>
+                <li>
+                    proyectos@2ycalc.com
+                </li>
+
+            </ul>
+            
+            <ul> <h2>NUMBERS</h2>
+                <li>
+                    +54 01161291292
+                </li>
+                <li>
+                    +54 01150103540
+                </li>
+                <li>
+                    +54 92224466091
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>2yCalc Copyright</h3>
+    </footer>
+
+    <!-- SCROLL REVEAL  https://scrollrevealjs.org/  si o si esto va primero que el script del codigo, ya que sino no reconoce scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- CODIGO JS-->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

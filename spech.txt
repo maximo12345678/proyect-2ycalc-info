@@ -1,0 +1,48 @@
+menu 
+
+Home
+	 Software Factory
+	 Intelligence in software manufacturing.
+
+Services
+	tarjeta1
+		We develop your Project from the beginning to its Implementation
+	tarjeta2 
+		Clean code and easily scalable
+	tarjeta3
+		Project Documentation
+	tarjeta4 
+		Highly qualified development teams
+		
+
+Technologies
+	React
+	Angular
+	.Net Framework
+	.Net Core
+	Sql Server
+	MySql 
+	Oracle
+	
+We
+	We are a team of software developers that handle the most used Back-end and Front-end technologies. Our software factory has specialists in the analysis and development of Web and desktop applications. We export software all over the world.
+
+
+Contact 
++54 01161291292
+info@2ycalc.com
+www.2ycalc.com
+
+
+
+
+
+showcase        	inicio			
+
+about-us			nosotros			
+
+news-cards			servicio 
+
+card-banner-two		tecnologias
+
+social				contacto

@@ -1,0 +1,77 @@
+[24:34, 5/26/2021] Maxi Yañez: 
+
+
+
+Informacion - speach  _/
+
+Contactos            _/
+
+Menu y boton             _/
+
+Footer hasta el final
+ 
+los 4 cards de que hacemos en filas de 2 columnas  _/
+
+en ingles        _/
+
+Tema logos e imaginea pesadas 
+
+
+botones con scroll sin rutas    _/
+
+
+banner tecnologias sin texto, opaco y solo logos  _/
+
+shower case con texto bien centrado   _/
+
+responsiva la seccion about us        _/
+
+
+------------------------------------
+
+2 etapa
+[01:53, 5/27/2021] Maxi Yañez: responsividad, imagenes pesadas, transicion botones
+
+A las imagenes de news-cards ponerle maxwidth y height auto o  eso asi no se deforman  _/
+
+Align-center en la clase container  _/
+
+Q no se pueda hacer zoom  
+
+Que el menu aparezca automaticamente pero cuando llega a 700px, asi le pongo la transicion cuando lo sacas
+
+Puse el navegador muy corrido para la derecha e  _/
+
+Contactos responsive   _/
+
+en forma responsive, cuando toques cualquier boton que se cierre el menu
+
+---------------------------------------------
+
+
+servicios:
+Análisis y Evaluación de Negocios
+Diseño de Solución en Implementación
+Monitoreo Integrado de Desempeño
+Optimización de Operaciones
+Optimización de Soluciones
+Migración de Soluciones
+
+slider como esta pagina https://www.troopsf.com/consultora-de-sistemas usando este video  https://www.youtube.com/watch?v=i9Yut6Dm9pI  --> codigo: https://codepen.io/kikopalomares/pen/zYGvzvw
+
+tocando las fotos de los servicios que te lleve a otro apartado para mas info sobre ese servicio. 
+
+
+
+----------------
+ACTUALIZACION 5/7/2021
+
+solo un H1 por pagina  _/
+
+agregar meta descripcion _/
+
+Footer _/
+
+Menú responsive mas a la derecha _/
+
+menu se rota con el click  _/
